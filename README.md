@@ -1,7 +1,7 @@
 # Estágio Target Sistemas
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE)
 
 Nesse repositório você encontrará as soluções dos desafios propostos no recrutamento. A linguagem utilizada para realizar o desafio foi Java.
+
 
 # [Solução Desafio 1](https://github.com/LucasAndrade131/Target_Sistemas_Teste/blob/master/src/Teste1.java).
 
