@@ -19,12 +19,10 @@ public class Teste4 {
         int ligaPrimeiro = rand.nextInt(3) + 1; // Qual interruptor é ligado primeiro
         // Liga o primeiro interruptor
         ligarInterruptor(ligaPrimeiro, lampadas);
-
         // Liga o segundo interruptor
         int ligaSegundo = (ligaPrimeiro % 3) + 1; // Garante que não ligue o mesmo interruptor novamente
         ligarInterruptor(ligaSegundo, lampadas);
 
-        // Determina qual interruptor controla qual lâmpada
         int[] resultados = new int[3];
         for (int i = 0; i < 3; i++) {
             if (lampadas[i] == 0) {

@@ -13,7 +13,7 @@ public class Teste3 {
         int inicio = 1, fim = 9, etapa = 2;
 
         System.out.println("Desafio 1:");
-        //For para chegar até o fim, o proximo numeor par
+        //For para chegar até o fim, o proximo numero par
         for (int i = inicio; i <= fim; i += etapa){
             System.out.print(i);
             if (i < fim - 1) {
